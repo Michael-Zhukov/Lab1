@@ -1,0 +1,55 @@
+/* Скидання стандартних відступів */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Стилізація заголовків */
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Стилізація header з фоновим зображенням */
+header {
+    background-image: url('https://i.ibb.co/9HMtpZGV/curvy-blue-wave-lines-background-presentation-backdrop.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Стилізація посилань */
+a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}
+
+/* Стилізація списків */
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
